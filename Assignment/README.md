@@ -1,8 +1,8 @@
-##Math Header and .c Files
+# Math Header and .c Files
 
 So far provided are the math.c and math.h files.  The header file (math.h) creates the "math" prototype, while the math.c file creates the logic for the "math" function.
 
-#math Function
+## math Function
 
 The math function prototyped in the header file reads as such: int math(int int2, int int2, char Operator).  The function returns an integer value ranging from -2,147,483,648 to 2,147,483,647.  The input variables int1 and int2 also need to be within this range.  The Operator character needs to one of the following (+, -, *, /, %, <, >, &, |, ^, ~) to allow the function to operate properly.
 
